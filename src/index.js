@@ -1,12 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import Navbar from "./components/navbar.jsx";
+import App from './containers/app'
 
 ReactDOM.render(
-  <Navbar />,
-  document.getElementById('root')
+    <App />,
+    document.getElementById('root')
 );
 
-reportWebVitals();
