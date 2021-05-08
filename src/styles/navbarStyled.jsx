@@ -1,9 +1,10 @@
-import React from 'react'
 import styled from "styled-components";
 
 export const Style = styled.nav`
   display: flex;
   justify-content: flex-end;
+  position: fixed; 
+  width: 100%;
   background-color: #be3144;
 `
 

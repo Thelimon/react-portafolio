@@ -1,10 +1,12 @@
 import React from 'react';
+import * as Header from '../styles/HeaderStyled.jsx';
 
 const HeaderMain= (props) =>{
     return (
-        <section>
-            <h1>Hey I am Mimic</h1>
-        </section>
+        <Header.HeaderBackground>
+            <Header.H1styled>Hey I am Mimic</Header.H1styled>
+            <Header.PStyled>a web developer</Header.PStyled>
+        </Header.HeaderBackground>
     );
 }
 
