@@ -2,9 +2,17 @@ import styled from "styled-components";
 
 export const CardGrid = styled.section`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  place-items: center;
-  text-align: center;
+  
+  @media (min-width: 768px){
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    text-align: center;
+  }
+  @media (min-width: 1024px){
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    text-align: center;
+  }
 `
 
 export const CardSize = styled.img`
@@ -17,7 +25,6 @@ export const CardParaph = styled.p`
   background-color: #303841;
   text-decoration: none;
   color: white;
-  margin: 0;
   height: 2rem;
 `
 export const CardAstyle = styled.a`
@@ -28,3 +35,4 @@ export const CardAstyle = styled.a`
 export const CardArticle = styled.article`
     text-decoration: none;
 `
+

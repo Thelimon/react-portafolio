@@ -1,8 +1,8 @@
 import React from 'react';
-import {ProjectTitleStyled} from "../styles/ProjectStyled";
+import { TitleStiled} from "../styles/ProjectStyled";
 
 const ProjectTitle = () => (
-    <ProjectTitleStyled>These are some of my projects</ProjectTitleStyled>
+    <TitleStiled name="These are some of my projects" />
 );
 
 export default ProjectTitle;
