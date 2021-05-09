@@ -1,17 +1,15 @@
 import React from 'react';
-import {CardFooter, CardParaph, CardSize} from "../styles/CardStyled";
+import {CardArticle, CardAstyle, CardParaph, CardSize} from "../styles/CardStyled";
 
 
 const DrNorman = () => (
     <>
-        <a href="https://codepen.io/freeCodeCamp/full/zNqgVx">
-            <article>
+        <CardAstyle href="https://codepen.io/freeCodeCamp/full/zNqgVx">
+            <CardArticle>
                 <CardSize src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="img"/>
-                <CardFooter>
-                    <CardParaph>Tribute Page</CardParaph>
-                </CardFooter>
-            </article>
-        </a>
+                <CardParaph>Tribute Page</CardParaph>
+            </CardArticle>
+        </CardAstyle>
     </>
 );
 

@@ -1,8 +1,9 @@
 import React from 'react';
-import Navbar from "./Navbar";
-import HeaderMain from "./HeaderMain";
+import Navbar from "../components/Navbar";
+import HeaderMain from "../components/HeaderMain";
 import {Normalize} from "styled-normalize";
-import Projects from "../containers/Projects";
+import Projects from "./Projects";
+import ContactMe from "./ContactMe";
 
 
 const Main = ({children}) => {
@@ -12,6 +13,7 @@ const Main = ({children}) => {
             <Navbar />
             <HeaderMain />
             <Projects />
+            <ContactMe />
         </>
 
     )
