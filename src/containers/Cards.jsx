@@ -6,6 +6,7 @@ import MapDataAcross from "../components/MapDataAcross";
 import WikipediaViewer from "../components/WikipediaViewer";
 import TicTac from "../components/TicTac";
 import {CardGrid} from "../styles/CardStyled";
+import CardButton from "../components/CardButton";
 
 const Cards = () => {
     return (
@@ -18,6 +19,7 @@ const Cards = () => {
                 <WikipediaViewer />
                 <TicTac />
             </CardGrid>
+            <CardButton />
         </>
     )
 };

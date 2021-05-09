@@ -4,6 +4,7 @@ import HeaderMain from "../components/HeaderMain";
 import {Normalize} from "styled-normalize";
 import Projects from "./Projects";
 import ContactMe from "./ContactMe";
+import Footer from "../components/Footer";
 
 
 const Main = ({children}) => {
@@ -14,6 +15,7 @@ const Main = ({children}) => {
             <HeaderMain />
             <Projects />
             <ContactMe />
+            <Footer />
         </>
 
     )

@@ -7,6 +7,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "@styled-icons/boxicons-logos": "^10.23.0",
+    "@styled-icons/boxicons-regular": "^10.23.0",
     "@styled-icons/fluentui-system-filled": "^10.33.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",

@@ -11,9 +11,12 @@ export const ContactStyled = styled.section`
 `
 
 export const ContactH2Styled = styled.h2`
-  font-size: 4rem; 
-  margin: 0;
+  font-size: 2.6rem;
+  margin: 6rem 0 2rem 0;
   color: #f0f0f0;
+  @media(min-width: 768px) {
+    font-size: 4rem;
+  }
 `
 
 export const ContactPstyled = styled.p`
