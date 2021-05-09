@@ -38,7 +38,7 @@ export const StyledSocialMediaIcons = styled.section`
   justify-content: space-evenly;
   flex-wrap: wrap;
   text-align: center;
-  margin-top: 2rem;
+  margin: 2rem;
 `
 
 export const StyledAnchorTagIcon = styled.a`
@@ -47,4 +47,8 @@ export const StyledAnchorTagIcon = styled.a`
   transition: transform 0.3s ease-out;
   text-decoration: none;
   color: #f0f0f0;
+  @media (min-width: 768px){
+    margin-right: 1.2rem;
+    font-size: 1.5rem;
+  }
 `
