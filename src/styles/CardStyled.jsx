@@ -26,9 +26,9 @@ export const CardParaph = styled.p`
   text-decoration: none;
   color: white;
   height: 2rem;
+  margin: 0 0 2rem;
 `
 export const CardAstyle = styled.a`
-  box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
   border-radius: 2px;    
 `
 

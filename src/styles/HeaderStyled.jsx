@@ -25,6 +25,5 @@ const PStyled = styled.p`
   color: #be3144;
 `
 
-
 export const HeaderH1 =  ({name}) => <H1styled>{name}</H1styled>;
 export const HeaderP = ({name}) => <PStyled>{name}</PStyled>;
