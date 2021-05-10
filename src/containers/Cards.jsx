@@ -7,6 +7,7 @@ import WikipediaViewer from "../components/WikipediaViewer";
 import TicTac from "../components/TicTac";
 import {CardGrid} from "../styles/CardStyled";
 import CardButton from "../components/CardButton";
+import {CardDivBtnContainer} from "../styles/ButtonStyled";
 
 const Cards = () => {
     return (
@@ -19,7 +20,9 @@ const Cards = () => {
                 <WikipediaViewer />
                 <TicTac />
             </CardGrid>
-            <CardButton />
+            <CardDivBtnContainer>
+                <CardButton />
+            </CardDivBtnContainer>
         </>
     )
 };

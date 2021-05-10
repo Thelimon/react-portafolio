@@ -42,9 +42,9 @@ export const StyledSocialMediaIcons = styled.section`
 `
 
 export const StyledAnchorTagIcon = styled.a`
-  font-size: 1.4rem;
+  font-size: 1rem;
+  margin: 1rem .6rem;
   text-shadow: 2px 2px 1px #1f1f1f;
-  transition: transform 0.3s ease-out;
   text-decoration: none;
   color: #f0f0f0;
   @media (min-width: 768px){

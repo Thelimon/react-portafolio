@@ -31,9 +31,15 @@ export const CardParaph = styled.p`
   align-items: center;
   background-color: #303841;
   color: white;
-  height: 2rem;
-  margin: 0 0 2rem;
+  height: 3.4rem;
+  margin: -7px 0 2rem;
   font-size: 1.2rem;
+  @media(min-width: 768px){
+    font-size: 1.4rem;
+  }
+  @media(min-width: 1024px){
+    font-size: 1.1rem;
+  }
 `
 export const CardAstyle = styled.a`
   border-radius: 2px;    

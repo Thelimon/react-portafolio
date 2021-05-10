@@ -1,6 +1,5 @@
 import React from 'react';
 import {CardArrow, CardBtn} from "../styles/ButtonStyled";
-import {RightArrowAlt} from "@styled-icons/boxicons-regular/RightArrowAlt";
 
 const CardButton = () => {
     return (
