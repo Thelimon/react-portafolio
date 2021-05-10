@@ -51,4 +51,8 @@ export const StyledAnchorTagIcon = styled.a`
     margin-right: 1.2rem;
     font-size: 1.5rem;
   }
+  &&:hover{
+    transform: translateY(8px);
+    transition: transform 0.7s ease-out;
+  }
 `
